@@ -1,0 +1,62 @@
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Milonga&display=swap');
+
+  :root{
+    --primary-color: #C98331;
+    --secondary-color: #a9c8da;
+    --accent1-color: #1F629A;
+    --accent2-color: #C7B494;
+    --heading-font: 'Milonga';
+    --paragraph-font:'Comic Neue';
+    --nav-background-color:#C98331;
+    --nav-link-color:#a9c8da;
+    --nav-hover-link-color: #1F629A;
+    --nav-hover-background-color: #C7B494;
+    
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960 px;
+    padding: 20 px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+header{
+    padding: 20px;
+    color:var(--accent1-color);
+    text-decoration: none;
+}
+
+p{
+    padding: 25px;
+}
+
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  footer{
+    text-decoration: none;
+  }
+
+  .hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  main div{
+    position: absolute;
+  }
+
+  h1, article{
+    position: absolute;
+  }
+  article img{
+    float: right;
+  }
